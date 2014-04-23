@@ -1,0 +1,17 @@
+#nav
+	ul
+		li
+			if currentURL === '/resume'
+				a(href='/resume').current Resume
+			else
+				a(href='/resume') resume
+		li
+			if currentURL === '/work'
+				a(href='/work').current Work
+			else
+				a(href='/work') Work
+		li
+			if currentURL === '/'
+				a(href='/').current About
+			else
+				a(href='/') About
