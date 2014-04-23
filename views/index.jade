@@ -1,8 +1,8 @@
 extends layout
 
 block content
- #container
-  #intro.black
-   p 
-    | Howdy, I'm Elena Boyd and I design 
-    | and develop mobile apps in Austin, TX.
+	include includes/nav
+	.container
+		#intro.black
+			p Howdy, I'm Elena Boyd and I design and develop mobile apps in Austin, TX.
+		include includes/contact

@@ -3,7 +3,24 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { 
+  	title: 'Elena Boyd | Mobile Development + Design',
+  	currentURL: '/'
+  });
+});
+
+router.get('/resume', function(req, res) {
+  res.render('resume', { 
+  	title: 'Elena Boyd | Resume',
+  	currentURL: '/resume'
+  });
+});
+
+router.get('/work', function(req, res) {
+  res.render('work', { 
+  	title: 'Elena Boyd | Work',
+  	currentURL: '/work'
+  });
 });
 
 // /* GET Hello World page. */
