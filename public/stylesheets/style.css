@@ -1,6 +1,7 @@
 @import url(fonts.css);
 @import url(nav.css);
 @import url(work.css);
+@import url(resume.css);
 
 body {
 	padding: 0px;
@@ -42,7 +43,7 @@ p {
 #brush {
 	margin: 0px auto;
 	/*background: url('/images/brush.png') no-repeat center;*/
-	border-bottom: 3px solid #7687ad;
+	border-bottom: 3px solid #84adb1;
 	width: 70%;
 	height: 5px;
 }
