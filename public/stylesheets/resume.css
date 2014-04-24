@@ -22,9 +22,44 @@
 }
 
 .label {
+	width:900px;
 	font-family: "ostrich";
 	font-size: 20px;
 	padding: 10px;
 	margin-left: 20px;
 }
 
+.column {
+	width: 200px;
+	float: left;
+}
+
+ul.skills {
+	display: inline-block;
+	list-style-position:inside;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #e3ba00;
+}
+
+.skills li {
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	color: #e3ba00;
+}
+
+.skills li  span {
+	font-family: "Open Sans";
+	font-weight: 300; 
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	font-size: 14px;
+}
+
+.clearLine {
+	clear: both; 
+	display: block; 
+	position: relative;
+}

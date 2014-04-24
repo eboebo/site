@@ -9,13 +9,13 @@
 	
 }
 
-ul {
+#nav ul {
 	padding-right: 30px;
 	float:left;
 	list-style-type: none;
 }
 
-li {
+#nav ul li {
 	float:left;
 	padding: 16px;
 	font-family: "ostrich";
@@ -23,7 +23,7 @@ li {
 	color: #000;
 }
 
-li#name {
+#nav ul li#name {
 	padding-top: 12px;
 	font-family: "good-foot";
 	font-size: 36px;
