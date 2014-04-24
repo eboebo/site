@@ -3,6 +3,8 @@ extends layout
 block content
 	include includes/nav
 	.container
-		#about.white
-			p This is my work. Wahoo!
+		#work
+			each val in [1, 2, 3, 4]
+				div
+					include project
 	include includes/contact

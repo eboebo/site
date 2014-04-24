@@ -1,17 +1,21 @@
 #nav
 	ul
+		li#name EB
+		li |
 		li
-			if currentURL === '/resume'
-				a(href='/resume').current Resume
+			if currentURL === '/'
+				a(href='/').current About
 			else
-				a(href='/resume') resume
+				a(href='/') About
 		li
 			if currentURL === '/work'
 				a(href='/work').current Work
 			else
 				a(href='/work') Work
 		li
-			if currentURL === '/'
-				a(href='/').current About
+			if currentURL === '/resume'
+				a(href='/resume').current Resume
 			else
-				a(href='/') About
+				a(href='/resume') resume
+	include contact
+
