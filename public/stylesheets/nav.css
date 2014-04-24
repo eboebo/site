@@ -1,0 +1,68 @@
+#nav {
+	margin-top: 0px;
+	height: 98px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	border-bottom: 1px solid #EAEBE7;
+	background-color: #fff;
+	
+}
+
+ul {
+	padding-right: 30px;
+	float:left;
+	list-style-type: none;
+}
+
+li {
+	float:left;
+	padding: 16px;
+	font-family: "ostrich";
+	font-size: 28px;
+	color: #000;
+}
+
+li#name {
+	padding-top: 12px;
+	font-family: "good-foot";
+	font-size: 36px;
+}
+
+.current {
+	border-bottom: 3px solid #e58a8f;
+}
+
+
+#contact {
+	float:right;
+	width: 192px;
+	margin-top: 14px;
+	margin-right: 46px;
+	/*margin: 132px auto;*/
+}
+
+.icon {
+	width:44px;
+	height:44px;
+	padding: 10px;
+	
+}
+
+#mail {
+	float: right;
+	background: url('/images/email.png') center no-repeat;
+	background-size: 44px;
+}
+
+#in {
+	float:right;
+	background: url('/images/linkedIn.png') center no-repeat;
+	background-size: 44px;
+}
+
+#twitter {
+	float:right;
+	background: url('/images/twitter.png') center no-repeat;
+	background-size: 44px;
+}

@@ -1,0 +1,53 @@
+#work {
+	margin: 50px auto;
+	width:900px;
+	height: 300px;
+}
+
+.project {
+	padding: 20px;
+	/*border: 3px solid #EAEBE7;*/
+	/*float:left;*/
+	margin: 20px;
+	/*width: 360px;*/
+	height: 400px;
+}
+
+#work p {
+	border-bottom: 3px solid #84adb1;
+	font-size: 32px;
+	height: 46px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.workIcon {
+	margin: 30px auto;
+	width: 300px;
+	height: 300px;
+	
+}
+
+#moon {
+	background: url('/images/moonshine_logo.png') center no-repeat;
+	background-size: 260px;
+	width: 300px;
+	height: 300px;
+
+}
+
+#mark {
+	background: url('/images/marksLogo.png') center no-repeat;
+	background-size: 300px;
+	width: 300px;
+	height: 300px;
+
+}
+
+#logo {
+	background: url('/images/blackHandcraft@2x.png') center no-repeat;
+	background-size: 300px;
+	width: 300px;
+	height: 300px;
+
+}

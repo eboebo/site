@@ -1,0 +1,30 @@
+#resume {
+	margin: 50px auto;
+	width:900px;
+
+}
+
+.section {
+	padding: 20px;
+	margin: 20px;
+}
+
+.title {
+	border-bottom: 3px solid #84adb1;
+	font-size: 32px;
+	height: 46px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.subsection {
+	margin-top: 20px;
+}
+
+.label {
+	font-family: "ostrich";
+	font-size: 20px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
