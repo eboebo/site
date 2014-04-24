@@ -4,7 +4,10 @@ block content
 	include includes/nav
 	.container
 		#work
-			each val in [1, 2, 3, 4]
+			- var ids = ["moon", "mark", "logo"];
+			- var jobs = ["Moonshine Interactive Website", 'MarksTheSpot iPhone App', 'Logo']
+			each val, index in jobs
 				div
-					include project
-	include includes/contact
+					- id = ids[index];
+					- job = val
+					include project 
