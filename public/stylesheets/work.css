@@ -10,7 +10,7 @@
 	/*float:left;*/
 	margin: 20px;
 	/*width: 360px;*/
-	height: 400px;
+	/*height: 400px;*/
 }
 
 #work p {
@@ -25,24 +25,11 @@
 	margin: 30px auto;
 	width: 300px;
 	height: 300px;
-	
-}
+}	
 
-#moon {
-	background: url('/images/moonshine_logo.png') center no-repeat;
-	background-size: 260px;
-	width: 300px;
-	height: 300px;
 
-}
 
-#mark {
-	background: url('/images/marksLogo.png') center no-repeat;
-	background-size: 300px;
-	width: 300px;
-	height: 300px;
 
-}
 
 #logo {
 	background: url('/images/blackHandcraft@2x.png') center no-repeat;
@@ -51,3 +38,80 @@
 	height: 300px;
 
 }
+
+
+	
+
+/* Moonshine Interactive CSS */
+#projectImages {
+	margin: 40px auto;
+	height: 480px;
+	width: 660px;
+}
+
+#moon1 {
+	background: url('/images/moonshine.png')  no-repeat;
+	background-size: 360px;
+	height:520px;
+	
+	float:left;
+	width: 400px;
+}
+
+#moon2 {
+	width: 260px;
+	height:400px;
+	float:left;
+}
+
+#busCard1 {
+	margin-top: 60px;
+	background: url('/images/frontImageBlur.jpg')  no-repeat;
+	background-size: 260px;
+	height: 200px;
+	width:260px;
+}
+
+#busCard2 {
+	background: url('/images/jbBack.jpg')  no-repeat;
+	background-size: 260px;
+	height: 200px;
+	width:260px;
+}
+
+/* MarksTheSpot CSS */
+
+#markImages {
+	margin: 40px auto;
+	height: 480px;
+	width: 660px;
+}
+
+.markCol {
+	width: 220px;
+	float: left;
+	height: 400px;
+}
+
+#mark1 {
+	background: url('/images/markMap.png') center no-repeat;
+	background-size: 200px;
+}
+
+#mark2 {
+	background: url('/images/markDetail.png') center no-repeat;
+	background-size: 200px;
+}
+
+#mark3 {
+
+	background: url('/images/markList.png') center no-repeat;
+	background-size: 200px;
+	/*height:140px;*/
+}
+
+/*#mark3a {
+	margin-top: 30px;
+	background: url('/images/marksLogo.png') center no-repeat;
+	background-size: 200px;
+	height:200px;*/
