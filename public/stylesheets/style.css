@@ -32,12 +32,49 @@ p {
 	font-size: 48px;
 }
 
-#intro {
-	margin: 50px auto;
+.section {
+	margin: 20px auto;
 	color: #000;
-	width: 100%;
+	width: 90%;
 	text-align: center;
 	
+}
+#aboutSection {
+	padding-top: 50px;
+	margin: 50px auto;
+	width: 80%;
+	height:600px;
+}
+
+#selfImage {
+	background: url('/images/elenaPhoto.png') center no-repeat;
+	background-size: 300px;
+	width:30%;
+	height:400px;
+	float:left;
+}
+
+#summary {
+	text-align:justify;
+	font-family: "Open Sans";
+	font-weight: 300; 
+	font-size: 18px;
+	width: 100%;
+	height:400px;
+	float:left;
+}
+
+#summary p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+#designDev {
+	background: url('/images/designDevLogo.png') center no-repeat;
+	background-size: 500px;
+	height: 100px;
+
 }
 
 #brush {
